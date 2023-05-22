@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Poppins:wght@300&family=Raleway&display=swap');
+html{
+    background: linear-gradient(to right bottom, #bcd6db, #cdbae0) fixed;
+font-family: 'Raleway', sans-serif;
+
+}
+
+nav{
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    height: 2cm;
+}
+nav h1{
+    font-size: 35px;
+    user-select: none;
+
+    margin-left: 30px;
+    font-family: 'MuseoModerno', sans-serif;
+    transition: 0.2s;
+}
+nav h1:hover{
+    font-size: 36px;
+rotate: 3deg;
+}
+.herfs{
+position: absolute;
+right:20px;
+}
+.herfs a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.herfs a:hover{
+    color: rgb(95, 92, 43);
+}
+.herfs button{
+    width: 3cm;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background: rgba(89, 66, 172, 0.144);
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: thick;
+    transition: 0.5s;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+.herfs button:hover{
+    background: #cdbae0;
+    cursor: pointer;
+    border: thick;
+}
+.herfs button i{
+    font-size: 20px;
+position: relative;
+top: 3px;
+}
+.cntr{
+    margin-top: 1cm;
+    display: grid;
+    justify-content: center;
+}
+
+.bigtext{
+    display: grid;
+    justify-content: center;
+
+}
+
+.bigtext h1{
+    font-family: 'MuseoModerno', sans-serif;
+font-size: 90px;
+
+}
+
+.bigtext .inline{
+    display: inline-flex;
+    justify-content: center;
+}
+.bigtext .inline p{
+    margin-top: -1cm;
+    font-family: 'MuseoModerno', sans-serif;
+font-size: 20px;
+font-weight: 900;
+    margin-right: 20px;
+}
+.thatthing{
+    width: 30cm;
+    height: 7cm;
+    border-radius: 0 140px 140px 0px;
+    background-image: url('images/omg3d.jpg');
+    position: absolute;
+    background-size:cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+
+.thatthing::before{
+    content: '';
+    background: rgba(0, 0, 0, 0.397);
+        width: 30cm;
+        height: 7cm;
+        position: absolute;
+        border-radius: 0 140px 140px 0px;
+        z-index: 9;
+
+        left: 0;
+}
+.thatthing h1{
+    z-index: 9;
+    font-family: 'MuseoModerno', sans-serif;
+font-size: 40px;
+    color: white;
+}
+
+.inlinee {
+    z-index: 9;
+justify-content: center;
+font-family: 'MuseoModerno', sans-serif;
+
+    display: inline-flex;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+font-family: 'MuseoModerno', sans-serif;
+
+}
+
+.ctr{
+    display: flex;
+    justify-content: center;
+}
